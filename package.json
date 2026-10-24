@@ -1,0 +1,29 @@
+{
+  "name": "banksystem",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "db:init": "node db/init.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "eslint-config-next": "^15.5.19",
+    "jose": "^5.6.3",
+    "lucide-react": "^0.408.0",
+    "next": "^15.5.19",
+    "pg": "^8.12.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "recharts": "^2.12.7"
+  },
+  "devDependencies": {
+    "dotenv": "^16.4.5"
+  },
+  "overrides": {
+    "postcss": "8.5.10"
+  }
+}
